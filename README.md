@@ -99,21 +99,21 @@ Key insights from the analysis include:
 - **States of Focus:** Utah, California, Maryland, Arizona, Mississippi.
 - **California Hotspots:** San Bernardino, Riverside, Tulare, Kern, Fresno.
 - **Temperature Effects:** High temperatures and heatwaves significantly impact AQI.
-- **Key Pollutants:** Ozone (O3), PM2.5, and PM10 are major contributors to poor air quality.
+- **Key Pollutants:** O3, PM2.5, and PM10 are major contributors to poor air quality.
 - **Seasonal Variations:** AQI trends show higher pollution in summer months; urban areas experience different patterns compared to rural areas.
 
 ## Challenges and Limitations
-- **Data Gaps:** Some weather data had missing entries, requiring interpolation.
-- **Seasonal Bias:** Sparse AQI data in winter months for rural counties.
+- **Outliers:** Some weather data had outliers, requiring cleaning.
+- **Urban and Rural Areas Definition:** Distinguishing between rural and urban areas in California can be done using several approaches, each with its advantages and limitations.
 - **Heatwave Definitions:** Varying definitions of heatwaves across counties.
 
 ## Future Work
-- **Expand Analysis:** Extend to other highly polluted states like Texas and Illinois.
+- **Expand Analysis:** Extend to other highly polluted states (Utah) and explore other factors that affect AQI variations across counties (costal vs inland areas).
 - **Machine Learning Models:** Predict future AQI trends based on climate data.
 - **Integration with Insurance Data:** Incorporate health and insurance claims data for more accurate risk models.
 
 ## Project Presentation
-- **This is our [Air Quality and Climate Dynamics in California](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Presentation/Air%20Quality%20and%20Climate%20Dynamics%20in%20California_Critical%20Facts%20for%20Insurance%20Focus%20Areas.pdf) presentation.
+- This is our [Air Quality and Climate Dynamics in California](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Presentation/Air%20Quality%20and%20Climate%20Dynamics%20in%20California_Critical%20Facts%20for%20Insurance%20Focus%20Areas.pdf) presentation.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/LICENSE) file for details.
