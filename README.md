@@ -20,6 +20,7 @@ This project is a part of the [Data Analytics Bootcamp](https://bigblue.academy/
 - [Results and Findings](#results-and-findings)
 - [Challenges and Limitations](#challenges-and-limitations)
 - [Future Work](#future-work)
+- [Project Presentation](#project-presentation)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
 
