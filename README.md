@@ -112,6 +112,9 @@ Key insights from the analysis include:
 - **Machine Learning Models:** Predict future AQI trends based on climate data.
 - **Integration with Insurance Data:** Incorporate health and insurance claims data for more accurate risk models.
 
+## Project Presentation
+- ** This is our [Air Quality and Climate Dynamics in California](Air Quality and Climate Dynamics in California) presentation.
+
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
