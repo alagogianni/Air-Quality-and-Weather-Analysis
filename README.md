@@ -87,8 +87,6 @@ To replicate the environment used in this project, follow these steps:
     ```sh
     cd Air-Quality-and-Weather-Analysis
     ```
-3. **Run Jupyter Notebooks:** Start Jupyter Notebook or JupyterLab and open the notebooks located in the `Data_preprocessing`, `Data_merging`, and `Analysis` directories.
-
 ## Visualizations
 Here are some key visualizations from the project:
 
