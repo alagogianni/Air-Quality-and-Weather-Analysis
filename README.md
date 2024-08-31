@@ -6,7 +6,7 @@ This project is a part of the [Data Analytics Bootcamp](https://bigblue.academy/
 - Angeliki Lagogianni, Data Analyst | Project Manager, https://github.com/alagogianni
 - Stelios Vasilakis, Data Analyst | Smart Irrigation Systems Engineer, https://github.com/stlvas
 
-## -- Project Status: [Completed]
+## --Project Status: [Completed]
 
 ## Table of Contents
 - [Project Overview](#project-overview)
