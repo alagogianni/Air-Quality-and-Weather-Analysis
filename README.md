@@ -1,5 +1,13 @@
 # Air Quality and Climate Dynamics in California
 
+This project is a part of the [Data Analytics Bootcamp](https://bigblue.academy/en/data-analytics-bootcamp) at [Big Blue Data Academy](https://bigblue.academy/en). 
+
+## Project Members
+-Angeliki Lagogianni, Data Analyst | Project Manager, https://github.com/alagogianni
+-Stelios Vasilakis, Data Analyst | Smart Irrigation Systems Engineer, https://github.com/stlvas
+
+## -- Project Status: [Completed]
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Project Objectives](#project-objectives)
@@ -16,9 +24,19 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Project Overview
-This project examines air quality and climate dynamics in California, focusing on the interplay between air quality trends and climate patterns. Our goal is to provide insights that can help insurance companies develop targeted strategies to address risks associated with poor air quality.
+The purpose of this project is to study air quality and climate dynamics in California and identify critical facts for insurance focus areas. 
+By understanding the interplay between air quality trends and climate patterns, we aim to develop targeted insurance strategies that address the specific risks associated with poor air quality. This will enable insurance companies to adjust premiums, create specialized health coverage, predict claims more accurately, and offer incentives for clean energy solutions, ultimately improving risk management and support for policyholders in California.
 
-## Project Objectives
+## Project Description
+We started searching for a good source to gather air quality data. We found EPA, U.S. Environmental Protection Agency. EPA establishes an AQI for five major air pollutants regulated by the Clean Air Act. Each of these pollutants has a national air quality standard set by EPA to protect public health:
+- ** ground-level ozone
+- ** particle pollution (also known as particulate matter, including PM2.5 and PM10)
+- ** carbon monoxide
+- ** sulfur dioxide
+- ** nitrogen dioxide
+EPA also monitors weather parameters, winds, temperature, barometric pressure etc. So, our first step was to gather air quality and weather data, we collected daily data for the last 20 years, so we could study the air quality in US States throughout the years and identify our area of interest.
+
+## Project Roadmap
 - **Data Collection:** Gathered 20 years of air quality and weather data from the EPA.
 - **Preliminary Analysis:** Cleaned and processed the data to identify states with the highest pollution levels.
 - **Identify Areas of Interest:** Focused on states with high pollution and significant climatic variability.
@@ -97,8 +115,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgements
 - Thanks to the **EPA** for providing the air quality data.
-- Special thanks to the **Data Analytics Bootcamp** for guidance and mentorship.
-- Used libraries and tools:
-  - Pandas
-  - Seaborn
-  - Matplotlib
+- Special thanks to the **Big Blue Data Academy** for guidance and mentorship.
+## Contact
+* Feel free to contact our team with any questions! 
