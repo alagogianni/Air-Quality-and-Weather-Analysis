@@ -10,7 +10,8 @@ This project is a part of the [Data Analytics Bootcamp](https://bigblue.academy/
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Project Objectives](#project-objectives)
+- [Project Description](#project-description)
+- [Project Roadmap](#project-roadmap)
 - [Data Sources](#data-sources)
 - [Installation and Requirements](#installation-and-requirements)
   - [Prerequisites](#prerequisites)
@@ -21,8 +22,10 @@ This project is a part of the [Data Analytics Bootcamp](https://bigblue.academy/
 - [Challenges and Limitations](#challenges-and-limitations)
 - [Future Work](#future-work)
 - [Project Presentation](#project-presentation)
+- [BI Dashboard](#bi-dashboard)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 ## Project Overview
 The purpose of this project is to study air quality and climate dynamics in California and identify critical facts for insurance focus areas. 
@@ -114,6 +117,9 @@ Key insights from the analysis include:
 
 ## Project Presentation
 - This is our [Air Quality and Climate Dynamics in California](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Presentation/Air%20Quality%20and%20Climate%20Dynamics%20in%20California_Critical%20Facts%20for%20Insurance%20Focus%20Areas.pdf) presentation.
+
+## BI Dashboard
+- This is our [PowerBI dashboard]()
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/LICENSE) file for details.
