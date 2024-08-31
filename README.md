@@ -113,13 +113,14 @@ Key insights from the analysis include:
 - **Integration with Insurance Data:** Incorporate health and insurance claims data for more accurate risk models.
 
 ## Project Presentation
-- **This is our [Air Quality and Climate Dynamics in California]([Air Quality and Climate Dynamics in California](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Presentation/Air%20Quality%20and%20Climate%20Dynamics%20in%20California_Critical%20Facts%20for%20Insurance%20Focus%20Areas.pdf) presentation.
+- **This is our [Air Quality and Climate Dynamics in California]([Air Quality and Climate Dynamics in California](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Presentation/Air%20Quality%20and%20Climate%20Dynamics%20in%20California_Critical%20Facts%20for%20Insurance%20Focus%20Areas.pdf)presentation.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/LICENSE) file for details.
 
 ## Acknowledgements
 - Thanks to the **EPA** for providing the air quality data.
 - Special thanks to the **Big Blue Data Academy** for guidance and mentorship.
+  
 ## Contact
 * Feel free to contact our team with any questions! 
