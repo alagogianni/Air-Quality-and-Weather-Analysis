@@ -70,7 +70,7 @@ To replicate the environment used in this project, follow these steps:
 Here are some key visualizations from the project:
 
 - **AQI in Urban vs Rural Areas:** ![AQI in Urban vs Rural Areas](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Visualizations/AQI%20%26%20Urban%20and%20Rural%20Areas.png)
-- **Seasonal AQI Patterns:** ![Seasonal AQI Patterns](path-to-image-file.png)
+- **AQI and Heatwaves:** ![AQI and Heatwaves](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Visualizations/AQI%20and%20Heatwaves.png)
 - **Urban vs Rural Comparison:** ![Urban vs Rural](path-to-image-file.png)
 
 ## Results and Findings
