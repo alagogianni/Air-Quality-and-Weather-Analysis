@@ -67,8 +67,8 @@ To replicate the environment used in this project, follow these steps:
 1. **Download the environment file:** [environment.yml](environment.yml)
 2. **Create and activate the environment:**
     ```sh
-    conda create --name your-env-name --file environment.yml
-    conda activate your-env-name
+    conda env create --file environment.yml
+    conda activate aqi_project_env
     ```
 3. **Install additional packages:**
     ```sh
