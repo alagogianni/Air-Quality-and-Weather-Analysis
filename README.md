@@ -28,16 +28,18 @@ This project examines air quality and climate dynamics in California, focusing o
 - **Implications for Insurance:** Provided recommendations for risk assessment and policy adjustments.
 
 ## Data Sources
-- **EPA:** U.S. Environmental Protection Agency data for air quality and weather parameters.
-- **Data Collection:** Historical data collected over 20 years, including pollutants like PM2.5, PM10, NO2, CO, SO2, Ozone, and weather parameters such as temperature and pressure.
+- **EPA:** U.S. Environmental Protection Agency data for air quality and weather parameters. Historical data collected over 20 years, including pollutants like PM2.5, PM10, NO2, CO, SO2, Ozone, and weather parameters such as temperature and pressure.
 
 ## Installation and Requirements
 
 ### Prerequisites
-- **Python 3.x:** Ensure Python 3.8+ is installed on your system.
+- **Python 3.9:** Ensure Python 3.9+ is installed on your system.
 - **Conda:** Conda package manager for environment management.
 - **Git:** Version control system for cloning repositories.
-- **Operating System:** Tested on macOS and Ubuntu.
+- **Jupyter:** For running Jupyter notebooks, ensure Jupyter is installed.
+- **Pandas, NumPy, Matplotlib, Seaborn:** Python libraries for data analysis and visualization.
+- **Operating System:** Run on Windows.
+- **Power BI:** Required for viewing and interacting with Power BI visualizations.
 
 ### Dependencies
 To replicate the environment used in this project, follow these steps:
@@ -45,7 +47,7 @@ To replicate the environment used in this project, follow these steps:
 1. **Download the environment file:** [environment.yml](environment.yml)
 2. **Create and activate the environment:**
     ```sh
-    conda create --name your-env-name --file installed_packages.txt
+    conda create --name your-env-name --file environment.yml
     conda activate your-env-name
     ```
 3. **Install additional packages:**
