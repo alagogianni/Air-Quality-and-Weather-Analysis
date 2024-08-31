@@ -3,8 +3,8 @@
 This project is a part of the [Data Analytics Bootcamp](https://bigblue.academy/en/data-analytics-bootcamp) at [Big Blue Data Academy](https://bigblue.academy/en). 
 
 ## Project Members
--Angeliki Lagogianni, Data Analyst | Project Manager, https://github.com/alagogianni
--Stelios Vasilakis, Data Analyst | Smart Irrigation Systems Engineer, https://github.com/stlvas
+- Angeliki Lagogianni, Data Analyst | Project Manager, https://github.com/alagogianni
+- Stelios Vasilakis, Data Analyst | Smart Irrigation Systems Engineer, https://github.com/stlvas
 
 ## -- Project Status: [Completed]
 
@@ -29,11 +29,11 @@ By understanding the interplay between air quality trends and climate patterns, 
 
 ## Project Description
 We started searching for a good source to gather air quality data. We found EPA, U.S. Environmental Protection Agency. EPA establishes an AQI for five major air pollutants regulated by the Clean Air Act. Each of these pollutants has a national air quality standard set by EPA to protect public health:
-- ** ground-level ozone
-- ** particle pollution (also known as particulate matter, including PM2.5 and PM10)
-- ** carbon monoxide
-- ** sulfur dioxide
-- ** nitrogen dioxide
+- **ground-level ozone
+- **particle pollution (also known as particulate matter, including PM2.5 and PM10)
+- **carbon monoxide
+- **sulfur dioxide
+- **nitrogen dioxide
 EPA also monitors weather parameters, winds, temperature, barometric pressure etc. So, our first step was to gather air quality and weather data, we collected daily data for the last 20 years, so we could study the air quality in US States throughout the years and identify our area of interest.
 
 ## Project Roadmap
