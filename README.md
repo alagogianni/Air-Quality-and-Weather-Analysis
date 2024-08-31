@@ -42,7 +42,7 @@ This project examines air quality and climate dynamics in California, focusing o
 ### Dependencies
 To replicate the environment used in this project, follow these steps:
 
-1. **Download the environment file:** [installed_packages.txt](installed_packages.txt)
+1. **Download the environment file:** [environment.yml](environment.yml)
 2. **Create and activate the environment:**
     ```sh
     conda create --name your-env-name --file installed_packages.txt
