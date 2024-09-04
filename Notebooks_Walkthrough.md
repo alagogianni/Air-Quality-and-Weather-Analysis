@@ -50,15 +50,45 @@ Both air quality and meteorological data required cleaning:
 
 By executing these preprocessing steps, we ensured that our dataset was clean, consistent, and ready for detailed analysis, setting a solid foundation for understanding the relationship between air quality and climate dynamics.
 
-### [Go to Data Preprocessing Notebook](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/tree/main/Data_preprocessing)
+### [Go to Data Preprocessing folder](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/tree/main/Data_preprocessing)
 
 ---
 
 ##  Merging Datasets
 
 ### Purpose
-In this notebook, we merge the cleaned air quality and meteorological data to create a unified dataset that allows us to analyze the interactions between climate and pollution levels.
+## Data Merging
 
+In this section, we merge the cleaned air quality and meteorological data to create two unified datasets. This allows us to analyze the interactions between climate and pollution levels. Below is an overview of the notebooks used in this process:
+
+### 1. [Air Quality Data](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Data_merging/1_Air_Quality_Data_merged.ipynb)
+
+**Purpose:** 
+- Imported and merged all air pollution data.
+- Ensured no records were lost despite some stations not having values for all dates.
+- Removed the AQI data included in each pollutant file to retain only the critical parameter’s AQI (the highest AQI derived from the pollutant, indicating the highest concentration).
+
+### 2. [AQI File](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Data_merging/2_AQI_FILE.ipynb)
+
+**Purpose:**
+- Imported air pollution data once again.
+- Focused on retaining the AQI of the critical parameter and the critical parameter itself for further analysis.
+
+### 3. [Air Data & AQI](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Data_merging/3_air_data_%26_AQI.ipynb)
+
+**Purpose:**
+- Merged the air pollution data with the AQI data created in the previous notebook.
+- Combined both datasets to facilitate a comprehensive analysis of air quality.
+
+### 4. [Weather Data](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Data_merging/4_Weather_Data_merged.ipynb)
+
+**Purpose:**
+- Merged all weather data.
+- Ensured no records were lost despite some stations not having values for all dates.
+
+These notebooks collectively ensure that we have a comprehensive and unified dataset, combining air quality and weather data to explore their interactions effectively.
+
+### [Go to Data Merging folder](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/tree/main/Data_merging)
 
 ### [Go to Notebook 2: Merging Datasets](link-to-notebook-2)
 
