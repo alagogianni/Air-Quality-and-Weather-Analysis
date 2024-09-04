@@ -54,10 +54,9 @@ By executing these preprocessing steps, we ensured that our dataset was clean, c
 
 ---
 
-##  Merging Datasets
+## Merging Datasets
 
 ### Purpose
-## Data Merging
 
 In this section, we merge the cleaned air quality and meteorological data to create two unified datasets. This allows us to analyze the interactions between climate and pollution levels. Below is an overview of the notebooks used in this process:
 
@@ -66,7 +65,7 @@ In this section, we merge the cleaned air quality and meteorological data to cre
 **Purpose:** 
 - Imported and merged all air pollution data.
 - Ensured no records were lost despite some stations not having values for all dates.
-- Removed the AQI data included in each pollutant file to retain only the critical parameter’s AQI (the highest AQI derived from the pollutant, indicating the highest concentration).
+- Removed the AQI data included in each pollutant file to retain later on the process only the critical parameter’s AQI (the highest AQI derived from the pollutant, indicating the highest concentration).
 
 ### 2. [AQI File](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Data_merging/2_AQI_FILE.ipynb)
 
@@ -77,8 +76,10 @@ In this section, we merge the cleaned air quality and meteorological data to cre
 ### 3. [Air Data & AQI](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Data_merging/3_air_data_%26_AQI.ipynb)
 
 **Purpose:**
-- Merged the air pollution data with the AQI data created in the previous notebook.
-- Combined both datasets to facilitate a comprehensive analysis of air quality.
+- Merged the AQI data created in the previous notebook with key columns from the air pollution data.
+- This step reintroduces the necessary columns for a comprehensive analysis, integrating AQI information with relevant air quality variables eg. Location, Date etc.
+
+  *Initially, we removed extraneous variables to simplify data processing due to the large number of entries. 
 
 ### 4. [Weather Data](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Data_merging/4_Weather_Data_merged.ipynb)
 
@@ -90,24 +91,48 @@ These notebooks collectively ensure that we have a comprehensive and unified dat
 
 ### [Go to Data Merging folder](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/tree/main/Data_merging)
 
-### [Go to Notebook 2: Merging Datasets](link-to-notebook-2)
-
 ---
 
-## Notebook 3: Data Analysis
+## Data Analysis
 
 ### Purpose
-This notebook is dedicated to analyzing the merged dataset to uncover relationships between climate variables (like temperature and humidity) and air pollution levels (such as PM2.5 and Ozone).
+These notebooks are dedicated to analyzing the final datasets to find the focus areas in usa (counties to study first) and uncover relationships between climate variables like temperature and air pollution levels.
 
-### [Go to Notebook 3: Data Analysis](link-to-notebook-3)
+### 1. [Yearly Aggregations](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Analysis/1_Weather_yearly_aggregation.ipynb)
 
----
+**Purpose:** 
+- Imported and aggregated daily air pollution data to yearly data also imported and aggregated daily weather data . We then merged weather and air pollution data.
+- Ensured no records were lost despite some stations not having values for all dates and parameters.
+- By studing yearly data we found the most polluted diachronically counties to focus on our alanysis.
 
-## Final Notebook: Summary and Future Work
+  *Power bi was used in this step to visualize those statements.
 
-### Purpose
-The final notebook summarizes the findings from our analysis and outlines potential future work, such as refining the models or expanding the analysis to other regions.
+### 2. [California & Utah](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Data_merging/2_AQI_FILE.ipynb)
 
-### [Go to Final Notebook: Summary and Future Work](link-to-final-notebook)
+**Purpose:**
+- Imported air pollution data and choce Utah and California to keep as the top polluted counties throuout the years.
+- Added aqi data in the dataset.
+- Imported weather data and choce Utah and California to keep as the top polluted counties throuout the years.
+- merged weather and aqi data.
+  
+  *we included this as a part of our analysis cause it was derived from our power bi analysis oservations.
 
----
+### 3. [Seasonal & Urban/Rural Analysis](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Data_merging/3_air_data_%26_AQI.ipynb)
+
+**Purpose:**
+- In this step we imported Utah and Californias data and decided to focus on california cause as it is explained in the presentation it was a state that has High levels of pollution 
+- Extensive network of monitoring stations
+- Diverse geographic regions
+- Strict environmental regulations. so we conducted temporal analysis first, distribution of aqis per season, and the aqi heatmap per year and month,and then temporal analysis, which included, aqi throuh the years in urban and rural areas, aqi comparison in urban and rural areas, average aqi in urban and rural areasduring different temperature ranges in california, and all 7 aqi pollutants levels in urban and rural areas over time. 
+
+
+### 4. [Heatwaves](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/blob/main/Data_merging/4_Weather_Data_merged.ipynb)
+
+**Purpose:**
+- Identifid via literature los angeles as a county with heatwaves and found the heatwaves there and then plotted 2020 months to identify the months with heatwaves and in those plots see how aqi reacts during heatwaves.
+- Ensured no records were lost despite some stations not having values for all dates.
+
+
+
+### [Go to Data Merging folder](https://github.com/alagogianni/Air-Quality-and-Weather-Analysis/tree/main/Data_merging)
+
